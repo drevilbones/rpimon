@@ -1,6 +1,6 @@
 #!/bin/bash
 
-monitor="conky -c newconkcity.conf"
+monitor="btm -C ./bottom.toml"
 
 echo "Starting monitor in a sec, ctrl+c to cancel..."
 sleep 2
